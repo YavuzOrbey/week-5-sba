@@ -7,7 +7,7 @@ import jwt from "jsonwebtoken"
 const app = express();
 const port = 5000;
 
-const uri = "mongodb+srv://yavuz:IC0L0ZynA5zBRGD9@cluster0.5stic.mongodb.net/week5sba?retryWrites=true&w=majority";
+const uri = "type in a mongodb atlas uri here";
 mongoose.connect(uri)
 
 const connection = mongoose.connection;
